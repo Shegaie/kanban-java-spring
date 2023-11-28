@@ -1,9 +1,8 @@
-package fr.lille.ippon.challenge.kanban.domain;
+package fr.lyon.ippon.challenge.kanban.domain;
+
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 import org.junit.jupiter.api.Test;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class TaskTest {
     @Test

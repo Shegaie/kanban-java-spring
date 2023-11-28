@@ -1,13 +1,13 @@
-package fr.lille.ippon.challenge.kanban;
+package fr.lyon.ippon.challenge.kanban;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KanbanApplication {
+public class KanbanJavaSpringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KanbanApplication.class, args);
+		SpringApplication.run(KanbanJavaSpringApplication.class, args);
 	}
 
 }
